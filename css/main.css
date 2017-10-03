@@ -17,23 +17,66 @@ body {
 
 .sidebar {
   color: #424242;
+  font-size: 4mm;
   height: 100%;
   padding: 0 !important; /* Overwrite Materialize */
+}
+
+.sidebar .info-container {
+  margin: 2mm 0;
+  padding: 0 !important;
 }
 
 .sidebar .reverse {
   color: #03a9f4;
 }
 
-#name {
+.name-container {
   font-size: 10mm;
   font-weight: bold;
-  margin: 8mm 0 0;
+  margin: 30mm 0 0;
   text-align: center;
 }
 
-#job-title {
-  margin:  0;
-  font-size: 6mm;
+.name-container p {
+  margin: 0;
+}
+
+.name-job-container {
+  font-size: 7mm;
   text-align: center;
+}
+
+.name-job-container p {
+  margin:  0;
+}
+
+.info-title-container {
+  font-size: 6mm;
+  margin: 10mm 0 5mm;
+  text-align: center;
+}
+
+.info-icon-container {
+  text-align: right;
+}
+
+.info-icon-container i {
+  margin: 2mm 0;
+}
+
+.info-text-container p {
+  margin: 2mm 0;
+}
+
+.info-text-container ul {
+  margin: 2mm 0 0;
+}
+.info-text-container li {
+  margin: 0 0 2mm;
+}
+
+.info-text-container a {
+  color: #eeeeee;
+  font-weight: bold;
 }
