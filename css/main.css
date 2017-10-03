@@ -16,19 +16,24 @@ body {
 }
 
 .sidebar {
-  color: white;
+  color: #424242;
   height: 100%;
   padding: 0 !important; /* Overwrite Materialize */
 }
 
+.sidebar .reverse {
+  color: #03a9f4;
+}
+
 #name {
-  font-size: 8mm;
+  font-size: 10mm;
+  font-weight: bold;
   margin: 8mm 0 0;
   text-align: center;
 }
 
 #job-title {
-  font-size: 5mm;
-  margin: 0 0 8mm;
+  margin:  0;
+  font-size: 6mm;
   text-align: center;
 }
