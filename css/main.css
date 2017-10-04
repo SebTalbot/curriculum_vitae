@@ -162,3 +162,8 @@ body {
 .job-box, .school-box {
   margin: 2mm 0;
 }
+
+.other-skills p {
+  margin: 0;
+  text-align: center;
+}
