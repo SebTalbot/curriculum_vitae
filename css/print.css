@@ -7,3 +7,26 @@ html,body {
   margin:0;
   padding:0;
 }
+
+* {
+  color: #000000;
+}
+
+.sidebar {
+  border-right: 0.5mm solid #000000;
+}
+
+.name-job-container {
+  border-top: 0.5mm solid #000000;
+  border-bottom: 0.5mm solid #000000;
+}
+
+.info-container .reverse {
+  border-top: 0.5mm solid #000000;
+  border-right: 0.5mm solid #000000;
+  border-bottom: 0.5mm solid #000000;
+}
+
+.content-panel {
+  border: 0.5mm solid #000000;
+}
