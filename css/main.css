@@ -4,7 +4,7 @@ body {
 
 /* Using paper friendly height and width */
 .container {
-    height: 280mm;
+    height: 279mm;
     margin: 0 auto;
     padding: 0;
     width: 215mm;
@@ -63,6 +63,10 @@ body {
 
 .info-icon-container i {
   margin: 2mm 0;
+}
+
+.info-text-container {
+  font-weight: 500;
 }
 
 .info-text-container p {
