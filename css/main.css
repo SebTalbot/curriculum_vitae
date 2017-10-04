@@ -177,3 +177,26 @@ body {
   margin: 0;
   text-align: center;
 }
+
+/* Credit: http://jsfiddle.net/thagxt/e1rp4sjp/ */
+@-webkit-keyframes Pulse {
+  0% { -webkit-box-shadow: 0 0 16px rgba(255,255,255,0.2); }
+  50% { -webkit-box-shadow: 0 0 16px rgba(255,255,255,0.99); }
+  100% { -webkit-box-shadow: 0 0 16px rgba(255,255,255,0.2); }
+}
+
+@keyframes Pulse {
+  0% { box-shadow: 0 0 16px rgba(255,255,255,0.2); }
+  50% { box-shadow: 0 0 16px rgba(255,255,255,0.99); }
+  100% { box-shadow: 0 0 16px rgba(255,255,255,0.2); }
+}
+
+#zio {
+  border-radius: 100%;
+  margin: 20% auto;
+  -webkit-animation: Pulse 3s infinite ease-in-out;
+  -o-animation: Pulse 3s infinite ease-in-out;
+  -ms-animation: Pulse 3s infinite ease-in-out;
+  -moz-animation: Pulse 3s infinite ease-in-out;
+  animation: Pulse 3s infinite ease-in-out;
+}
