@@ -46,12 +46,12 @@ body {
 }
 
 .name-job-container {
-  font-size: 7mm;
+  font-size: 5mm;
   text-align: center;
 }
 
 .name-job-container p {
-  margin:  0;
+  margin:  0.5mm;
 }
 
 .info-title-container {
@@ -138,10 +138,15 @@ body {
 
 .content-panel h2 {
   font-size: 6mm;
-  margin: 1mm 0;
+  margin: 2mm 0;
 }
 
 .content-panel h3 {
+  font-size: 5mm;
+  margin: 2mm 0;
+}
+
+.content-panel h4 {
   color: #03a9f4;
   font-size: 4mm;
   margin: 0.5mm 0;
