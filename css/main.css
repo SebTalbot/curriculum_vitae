@@ -128,3 +128,17 @@ body {
   font-size: 8mm;
   margin: 0;
 }
+
+.content-panel .devicon {
+  padding: 3mm 0 0;
+}
+
+.content-panel .devicon i {
+  font-size: 13mm;
+  margin: 2mm 3mm;
+}
+
+.content-panel p {
+  margin: 0;
+  text-align: center;
+}
