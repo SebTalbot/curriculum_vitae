@@ -95,6 +95,10 @@ body {
   transition: text-shadow 0.2s ease-out;
 }
 
+.icon-link {
+  text-align: center;
+}
+
 .main-panel {
   color: #424242;
   height: 100%;
