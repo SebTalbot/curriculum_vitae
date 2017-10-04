@@ -133,7 +133,7 @@ body {
 
 .content-panel h2 {
   font-size: 6mm;
-  margin: 0;
+  margin: 1mm 0;
 }
 
 .content-panel h3 {
@@ -152,7 +152,7 @@ body {
 }
 
 .content-panel p {
-  margin: 1mm 0;
+  margin: 2.5mm 0;
 }
 
 .content-panel span {
