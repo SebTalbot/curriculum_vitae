@@ -1,5 +1,7 @@
 body {
   padding: 30px 0;
+  /* Src: http://www.aiflex.com/wp-content/uploads/2010/09/backgroundpng.png */
+  background-image:  url("../files/background.png");
 }
 
 /* Using paper friendly height and width */
