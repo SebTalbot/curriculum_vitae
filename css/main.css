@@ -1,5 +1,5 @@
 body {
-  padding: 2mm 0;
+  padding: 30px 0;
 }
 
 /* Using paper friendly height and width */
@@ -83,6 +83,13 @@ body {
 .info-text-container a {
   color: #eeeeee;
   font-weight: bold;
+  transition: text-shadow 0.2s ease-out;
+}
+
+.info-text-container a:hover {
+  text-shadow: 0mm 0.5mm 1mm#000;
+  font-weight: bolder;
+  transition: text-shadow 0.2s ease-out;
 }
 
 .main-panel {
