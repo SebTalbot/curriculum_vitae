@@ -159,6 +159,6 @@ body {
   font-size: 3mm;
 }
 
-.job-box {
+.job-box, .school-box {
   margin: 2mm 0;
 }
