@@ -41,7 +41,8 @@ body {
 }
 
 .name-container p {
-  margin: 0;
+  line-height: 9mm;
+  margin: 0 0 4mm;
 }
 
 .name-job-container {
