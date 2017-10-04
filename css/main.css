@@ -139,7 +139,7 @@ body {
 .content-panel h3 {
   color: #03a9f4;
   font-size: 4mm;
-  margin: 0;
+  margin: 0.5mm 0;
 }
 
 .content-panel .devicon {
@@ -152,19 +152,13 @@ body {
 }
 
 .content-panel p {
-  margin: 0;
-  text-align: center;
-}
-
-.job-box {
-  margin: 2mm 0;
-}
-
-.job-box p {
   margin: 1mm 0;
-  text-align: left;
 }
 
 .content-panel span {
   font-size: 3mm;
+}
+
+.job-box {
+  margin: 2mm 0;
 }
