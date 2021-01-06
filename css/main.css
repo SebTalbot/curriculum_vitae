@@ -4,12 +4,24 @@ body {
   background-image:  url("../files/background.png");
 }
 
+a {
+  color: #eeeeee;
+  font-weight: bold;
+  transition: text-shadow 0.2s ease-out;
+}
+
+a:hover {
+  text-shadow: 0mm 0.5mm 1mm#000;
+  font-weight: bolder;
+  transition: text-shadow 0.2s ease-out;
+}
+
 /* Using paper friendly height and width */
 .container {
-    height: 279mm;
+    height: 297mm;
     margin: 0 auto;
     padding: 0;
-    width: 215mm;
+    width: 210mm;
 }
 
 .container .row {
@@ -31,6 +43,13 @@ body {
 
 .sidebar .reverse {
   color: #03a9f4;
+}
+
+.language-toggle {
+  font-size: 4mm;
+  font-weight: bold;
+  margin: 2mm 0 0;
+  text-align: left;
 }
 
 .name-container {
@@ -70,29 +89,7 @@ body {
 
 .info-text-container {
   font-weight: 500;
-}
-
-.info-text-container p {
-  margin: 2mm 0;
-}
-
-.info-text-container ul {
   margin: 2mm 0 0;
-}
-.info-text-container li {
-  margin: 0 0 2mm;
-}
-
-.info-text-container a {
-  color: #eeeeee;
-  font-weight: bold;
-  transition: text-shadow 0.2s ease-out;
-}
-
-.info-text-container a:hover {
-  text-shadow: 0mm 0.5mm 1mm#000;
-  font-weight: bolder;
-  transition: text-shadow 0.2s ease-out;
 }
 
 .icon-link {
@@ -158,7 +155,7 @@ body {
 }
 
 .content-panel .devicon i {
-  font-size: 13mm;
+  font-size: 12mm;
   margin: 2mm 3mm;
 }
 
@@ -168,6 +165,10 @@ body {
 
 .content-panel span {
   font-size: 3mm;
+}
+
+.content-panel li {
+  list-style-type: disc !important;
 }
 
 .job-box, .school-box {
